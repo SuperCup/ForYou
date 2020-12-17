@@ -7,9 +7,7 @@ inhibit_all_warnings!
 
 use_frameworks!
 target 'HelloWorld' do
-  
-  pod 'IGListKit', :path => './IGListKit'
-  
+    
   #github https://github.com
   pod 'FMDB','2.7.5'
   pod 'AFNetworking','~> 4.0'
